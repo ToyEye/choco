@@ -1,13 +1,77 @@
-<header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
+<header class="header" id="header">
+  <div class="container header-wrapper">
+    <a class="logo" href="/index.html"
+      >SIMPLY CHOCOLATE
+      <svg class="logo-icon">
+        <use href="/img/icons.svg#icon-chocolate"></use>
+      </svg>
+    </a>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
+    <button type="button" class="open-menu-btn">
+      <svg width="24" height="16">
+        <use href="/img/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
+
+    <nav class="menu-nav">
+      <ul class="menu-nav-list">
+        <li><a class="menu-link" href="#header">Home</a></li>
+        <li><a class="menu-link" href="#how">How it’s made?</a></li>
+        <li><a class="menu-link" href="#products">Our products</a></li>
+        <li><a class="menu-link" href="#sellers">Top sellers</a></li>
+        <li><a class="menu-link" href="#choco">Chocolate is loved</a></li>
+      </ul>
+    </nav>
+
+    <ul class="header-icons-list">
+      <li>
+        <a href="/" class="header-icon-link">
+          <svg class="header-icon" width="24" height="24">
+            <use href="/img/icons.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="/" class="header-icon-link">
+          <svg class="header-icon" width="24" height="24">
+            <use href="/img/icons.svg#icon-twitter"></use>
+          </svg>
+        </a>
       </li>
     </ul>
-  </nav>
+
+    <div class="mobile-menu">
+      <button type="button" class="close-menu-btn">
+        <svg width="28" height="28">
+          <use href="/img/icons.svg#icon-x-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-nav">
+        <ul class="mobile-menu-nav-list">
+          <li><a class="mobile-menu-link" href="">How it’s made?</a></li>
+          <li><a class="mobile-menu-link" href="">Home</a></li>
+          <li><a class="mobile-menu-link" href="">Our products</a></li>
+          <li><a class="mobile-menu-link" href="">Top sellers</a></li>
+          <li><a class="mobile-menu-link" href="">Chocolate is loved</a></li>
+        </ul>
+      </nav>
+
+      <ul class="mobile-icons-list">
+        <li>
+          <a href="/" class="mobile-icon-link">
+            <svg width="22" height="22" class="mobile-menu-icon">
+              <use href="/img/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="/" class="mobile-icon-link">
+            <svg width="22" height="22" class="mobile-menu-icon">
+              <use href="/img/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </header>

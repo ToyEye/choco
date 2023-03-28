@@ -1,0 +1,50 @@
+.primary-btn {
+  padding: 12px 28px;
+
+  font-weight: 600;
+
+  font-size: 14px;
+  line-height: calc(17 / 14);
+
+  color: #ffffff;
+  background-color: #fd9222;
+  border: none;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  transition: 350ms cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.primary-btn:is(:hover, :focus) {
+  background-color: #fcf1e0;
+  color: #fd9222;
+}
+
+.primary-title {
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  color: #111111;
+}
+
+.primary-title span {
+  color: #fd9222;
+}
+
+@media screen and (min-width: 768px) {
+  .primary-btn {
+    padding: 14px 40px;
+  }
+
+  .primary-title {
+    margin-bottom: 50px;
+
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
