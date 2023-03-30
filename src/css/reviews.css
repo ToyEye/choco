@@ -1,0 +1,43 @@
+.reviews {
+  padding-bottom: 77px;
+}
+.swiper-review {
+  padding-bottom: 40px;
+  padding-top: 45px;
+}
+
+.reviews-title {
+  margin-bottom: 72px;
+}
+
+.review-slide {
+  position: relative;
+  height: 242px;
+}
+
+.review-thumb {
+  height: 200px;
+  background: #ffffff;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+  border-radius: 15px;
+  padding: 56px 24px 26px;
+  text-align: center;
+}
+
+.review-slide img {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+}
+
+.review-name {
+  margin-bottom: 24px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+}
