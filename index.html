@@ -18,9 +18,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     
-    <script type="module" crossorigin src="/choco-test/assets/index-fbb0aefa.js"></script>
-    <link rel="stylesheet" href="/choco-test/assets/index-c6d2e181.css">
+    <script type="module" crossorigin src="/choco-test/assets/index-8a57d723.js"></script>
+    <link rel="stylesheet" href="/choco-test/assets/index-ebc8d3b7.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -209,7 +213,12 @@
               media="(min-width: 375px )"
               srcset="/choco-test/assets/choco-plate-mob-a3bf48a5.png "
             />
-            <img src="/choco-test/assets/choco-plate-mob-a3bf48a5.png" alt="choco" width="264" />
+            <img
+              src="/choco-test/assets/choco-plate-mob-a3bf48a5.png"
+              alt="chocolate"
+              width="264"
+              loading="lazy"
+            />
           </picture>
 
           <p>MILK CHOCOLATE</p>
@@ -239,7 +248,7 @@
           <picture>
             <source media="(min-width: 1200px )" srcset="/choco-test/assets/milk-desk-f4e3bb65.png " />
             <source media="(min-width: 375px )" srcset="/choco-test/assets/milk-mob-6981dc9b.png " />
-            <img src="/choco-test/assets/milk-mob-6981dc9b.png" alt="choco" width="264"
+            <img src="/choco-test/assets/milk-mob-6981dc9b.png" alt="milk" width="264" loading="lazy"
           /></picture>
 
           <p>MILK</p>
@@ -269,7 +278,7 @@
           <picture>
             <source media="(min-width: 1200px )" srcset="/choco-test/assets/nuts-desc-30ac7fd8.png " />
             <source media="(min-width: 375px )" srcset="/choco-test/assets/nuts-mob-bb2e3565.png " />
-            <img src="/choco-test/assets/nuts-mob-bb2e3565.png" alt="choco" width="264"
+            <img src="/choco-test/assets/nuts-mob-bb2e3565.png" alt="nuts" width="264" loading="lazy"
           /></picture>
 
           <p>NUTS</p>
@@ -299,7 +308,11 @@
           <picture>
             <source media="(min-width: 1200px )" srcset="/choco-test/assets/choco-desk-f4b11794.png " />
             <source media="(min-width: 375px )" srcset="/choco-test/assets/choco-mob-6879ebd6.png " />
-            <img src="/choco-test/assets/choco-mob-6879ebd6.png" alt="choco" width="264"
+            <img
+              src="/choco-test/assets/choco-mob-6879ebd6.png"
+              alt="chocolate beans"
+              width="264"
+              loading="lazy"
           /></picture>
 
           <p>SEMI-SWEET CHOCOLATE</p>
@@ -337,6 +350,7 @@
     <div class="how-thumb">
       <div>
         <iframe
+          loading="lazy"
           class="iframe"
           src="https://www.youtube.com/embed/J65d3aSkFwM"
           title="Шоколад | Как это устроено | Discovery"
@@ -385,7 +399,81 @@
 
       <section class="products" id="products">
   <div class="container">
-    <h2>Our products</h2>
+    <h2 class="primary-title">Our <span>products</span></h2>
+
+    <!-- Slider main container -->
+    <div class="swiper swiper-products">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide prod-slide">
+          <img src="/choco-test/assets/orange-56b3aca5.png" alt="" loading="lazy" />
+          <div>
+            <h3 class="choco-name">orange</h3>
+            <p class="choco-type">Dark chocolate</p>
+            <p class="choco-price">45 UAH</p>
+          </div>
+        </div>
+        <div class="swiper-slide prod-slide">
+          <img src="/choco-test/assets/apple-cranberry-59cc7fa3.png" alt="" loading="lazy" />
+          <div>
+            <h3 class="choco-name">APPLE&CRANBERRY</h3>
+            <p class="choco-type">Milk chocolate</p>
+            <p class="choco-price">50 UAH</p>
+          </div>
+        </div>
+        <div class="swiper-slide prod-slide">
+          <img src="/choco-test/assets/lime-sea-5ff9bf3d.png" alt="" loading="lazy" />
+          <div>
+            <h3 class="choco-name">lime&sea salt</h3>
+            <p class="choco-type">Dark chocolate</p>
+            <p class="choco-price">66 UAH</p>
+          </div>
+        </div>
+        <div class="swiper-slide prod-slide">
+          <img src="/choco-test/assets/pineapple-91f7367c.png" alt="" loading="lazy" />
+          <div>
+            <h3 class="choco-name">pineapple</h3>
+            <p class="choco-type">Dark chocolate</p>
+            <p class="choco-price">54 UAH</p>
+          </div>
+        </div>
+        <div class="swiper-slide prod-slide">
+          <img src="/choco-test/assets/classic-2376501b.png" alt="" loading="lazy" />
+          <div>
+            <h3 class="choco-name">Classic</h3>
+            <p class="choco-type">Milk chocolate</p>
+            <p class="choco-price">45 UAH</p>
+          </div>
+        </div>
+        <div class="swiper-slide prod-slide">
+          <img src="/choco-test/assets/honey-e65768ee.png" alt="" loading="lazy" />
+          <div>
+            <h3 class="choco-name">honey</h3>
+            <p class="choco-type">Milk chocolate</p>
+            <p class="choco-price">50 UAH</p>
+          </div>
+        </div>
+        <div class="swiper-slide prod-slide">
+          <img src="/choco-test/assets/roasted-6e4e2d27.png" alt="" loading="lazy" />
+          <div>
+            <h3 class="choco-name">Roasted fruits</h3>
+            <p class="choco-type">Dark chocolate</p>
+            <p class="choco-price">66 UAH</p>
+          </div>
+        </div>
+        <div class="swiper-slide prod-slide">
+          <img src="/choco-test/assets/classic-white-7bc91624.png" alt="" loading="lazy" />
+          <div>
+            <h3 class="choco-name">Classic</h3>
+            <p class="choco-type">White chocolate</p>
+            <p class="choco-price">54 UAH</p>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
   </div>
 </section>
 
@@ -402,7 +490,10 @@
           <source media="(min-width: 768px)" srcset="/choco-test/assets/seller-one-tab-680e47ce.jpg " />
           <source media="(min-width: 375px)" srcset="/choco-test/assets/seller-one-mob-0beda291.jpg " />
 
-          <img src="/choco-test/assets/seller-one-mob-0beda291.jpg" alt=""
+          <img
+            src="/choco-test/assets/seller-one-mob-0beda291.jpg"
+            loading="lazy"
+            alt="chocolate with coffee and nuts"
         /></picture>
 
         <p class="seller-desk">
@@ -419,7 +510,10 @@
           <source media="(min-width: 768px)" srcset="/choco-test/assets/seller-two-tab-4e43567f.jpg " />
           <source media="(min-width: 375px)" srcset="/choco-test/assets/seller-two-mob-bc44fd6a.jpg " />
 
-          <img src="/choco-test/assets/seller-two-mob-bc44fd6a.jpg" alt=""
+          <img
+            src="/choco-test/assets/seller-two-mob-bc44fd6a.jpg"
+            loading="lazy"
+            alt="chocolate with nuts and caramel"
         /></picture>
       </li>
       <li class="seller-item">
@@ -428,11 +522,102 @@
             media="(min-width: 1200px)"
             srcset="/choco-test/assets/seller-three-desk-6d2a27ec.jpg " />
 
-          <img src="/choco-test/assets/seller-three-desk-6d2a27ec.jpg" alt=""
+          <img
+            src="/choco-test/assets/seller-three-desk-6d2a27ec.jpg"
+            loading="lazy"
+            alt="dark chocolate"
         /></picture>
       </li>
     </ul>
     <button class="seller-btn primary-btn" type="button">Buy now</button>
+  </div>
+</section>
+
+      <section class="reviews">
+  <div class="container">
+    <h2 class="primary-title reviews-title"><span>chocolate</span> is loved</h2>
+
+    <!-- Slider main container -->
+    <div class="swiper swiper-review">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide review-slide">
+          <img
+            src="/choco-test/assets/persone-1-97c732fb.jpg"
+            alt="Victoria Dobrzhanska"
+            loading="lazy"
+          />
+          <div class="review-thumb">
+            <h3 class="review-name">Victoria Dobrzhanska</h3>
+            <p>
+              I love this chocolate bar. Perfect combination of light crispy
+              wafer, covered in a thin layer chocolate.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide review-slide">
+          <img src="/choco-test/assets/persone-2-ff991373.jpg" alt="Nazar Babenko" loading="lazy" />
+          <div class="review-thumb">
+            <h3 class="review-name">Nazar Babenko</h3>
+            <p>
+              This chocolate confection is a delight! A delight! The wafer is
+              light and crisp, the hazelnut cream is smooth, and the chocolate
+              is good.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide review-slide">
+          <img src="/choco-test/assets/persone-3-8bc7d5dc.jpg" alt="Olena Kampusch" loading="lazy" />
+          <div class="review-thumb">
+            <h3 class="review-name">Olena Kampusch</h3>
+            <p>
+              Chocolate is a family favourite treat. Love the delicious smooth
+              chocolate and the creaminess inside. The wafer is soft but
+              crunchy.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide review-slide">
+          <img
+            src="/choco-test/assets/persone-4-1de6dadc.jpg"
+            alt="Danilo Nottingham"
+            loading="lazy"
+          />
+          <div class="review-thumb">
+            <h3 class="review-name">Danilo Nottingham</h3>
+            <p>
+              This is delicious. It so rich and flavorful you don’t need to use
+              as many. I love topping an apple with almond butter and these
+              chips for a snack.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide review-slide">
+          <img src="/choco-test/assets/persone-5-a8a2adf0.jpg" alt="Natalia Sus" loading="lazy" />
+          <div class="review-thumb">
+            <h3 class="review-name">Natalia Sus</h3>
+            <p>
+              The chocolate assortment was delicious. Both dark and milk
+              chocolate pieces were smooth and just right on the sweetness
+              level.
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide review-slide">
+          <img src="/choco-test/assets/persone-6-d5ecb39d.jpg" alt="Irina Tydnyuk" loading="lazy" />
+          <div class="review-thumb">
+            <h3 class="review-name">Irina Tydnyuk</h3>
+            <p>
+              This is simply the best chocolate around, and I'm just thrilled to
+              support a local company! Best local chocolate - world class :)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-pagination swiper-pagination-review"></div>
+    </div>
   </div>
 </section>
 
@@ -498,8 +683,7 @@
 
 
     <!-- Loads the specified .html file -->
-
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
   </body>
 </html>
