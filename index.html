@@ -18,8 +18,8 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
     
-    <script type="module" crossorigin src="/choco-test/assets/index-8a57d723.js"></script>
-    <link rel="stylesheet" href="/choco-test/assets/index-c77ae435.css">
+    <script type="module" crossorigin src="/choco-test/assets/index-2790c865.js"></script>
+    <link rel="stylesheet" href="/choco-test/assets/index-96aad4e6.css">
   </head>
   <body>
     <header class="header" id="header">
@@ -113,7 +113,13 @@
       <div class="hero-thumb">
         <ul class="hero-btn-list">
           <li>
-            <button type="button" class="primary-btn hero-btn">Buy now</button>
+            <button
+              type="button"
+              class="primary-btn hero-btn js-open-modal"
+              data-modal="1"
+            >
+              Buy now
+            </button>
           </li>
           <li>
             <button type="button" class="primary-btn buy hero-btn">
@@ -130,6 +136,52 @@
           ></span>
         </a>
       </div>
+    </div>
+
+    <div class="modal modal-buy" data-modal="1">
+      <button type="button" class="close-modal-btn js-modal-close">
+        <svg width="28" height="28">
+          <use href="/choco-test/assets/icons-ea7799ca.svg#icon-x-close"></use>
+        </svg>
+      </button>
+
+      <h3 class="primary-title"><span>bUY</span> nOW</h3>
+
+      <form class="form-buy">
+        <div>
+          <p class="buy-label">Personal information</p>
+          <label
+            ><input type="text" placeholder="Name" class="input-name"
+          /></label>
+          <label><input type="text" placeholder="Surname" /></label>
+        </div>
+
+        <div>
+          <p class="buy-label">Email</p>
+          <label><input type="email" placeholder="Enter your email" /></label>
+        </div>
+
+        <div>
+          <p class="buy-label">Phone number</p>
+          <label><input type="tel" placeholder="Phone number" /></label>
+        </div>
+
+        <div>
+          <p class="buy-label">Card number</p>
+          <label><input type="text" placeholder="Enter card" /></label>
+        </div>
+
+        <div>
+          <p class="buy-label">Comment</p>
+          <label>
+            <textarea type="tel" placeholder="Enter text"></textarea>
+          </label>
+        </div>
+
+        <button type="submit" class="primary-btn js-open-modal" data-modal="2">
+          Submit
+        </button>
+      </form>
     </div>
   </div>
 </section>
@@ -674,6 +726,21 @@
     </ul>
   </div>
 </footer>
+
+    <div class="overlay js-overlay-modal"></div>
+
+    <div class="modal pop-up" data-modal="2">
+  <button type="button" class="close-modal-btn js-modal-close">
+    <svg width="28" height="28">
+      <use href="/choco-test/assets/icons-ea7799ca.svg#icon-x-close"></use>
+    </svg>
+  </button>
+  <p>thank you!</p>
+  <p>
+    We are glad that you ordered our chocolate and we are giving you a 20%
+    discount on all our products.
+  </p>
+</div>
 
 
     <!-- Loads the specified .html file -->
