@@ -94,10 +94,55 @@
   color: #ffffff;
   background-color: #fd9222;
 }
+
 .scroll-icon {
   height: 16px;
   width: 16px;
   fill: currentColor;
+}
+
+/* Modal */
+.modal-buy {
+  width: 311px;
+  background: #fafafa;
+  border-radius: 15px;
+}
+
+.form-buy {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.input-name {
+  margin-bottom: 14px;
+}
+
+.buy-label {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #000000;
+}
+
+.modal-buy input,
+.modal-buy textarea {
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 8px;
+}
+
+.modal-buy textarea {
+  height: 91px;
+  resize: none;
 }
 
 @media screen and (min-width: 768px) {
