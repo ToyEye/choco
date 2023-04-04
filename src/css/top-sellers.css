@@ -37,6 +37,16 @@
   margin: 0 auto;
 }
 
+/* Modal */
+.sellers-modal {
+  width: 311px;
+}
+
+.sellers-modal img {
+  margin: 0 auto;
+}
+/* Slider */
+
 @media screen and (min-width: 768px) {
   .sellers {
     padding-bottom: 100px;
@@ -63,6 +73,11 @@
 
   .seller-desk {
     margin-top: 32px;
+  }
+
+  .sellers-modal {
+    width: 609px;
+    max-width: 609px;
   }
 }
 

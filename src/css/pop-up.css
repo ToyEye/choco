@@ -1,4 +1,103 @@
 .pop-up {
-  background: #fd9222;
+  width: 311px;
+  height: 350px;
+
+  padding-left: 68px;
+  padding-top: 84px;
+
+  text-align: left;
+
+  color: #ffffff;
+
+  background-position-y: bottom;
+  background-image: url('/img/pop-up-choco.avif');
+  background-repeat: no-repeat;
+  background-color: #fd9222;
   border-radius: 15px;
+}
+
+.gratitude {
+  margin-bottom: 8px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #fcf1e0;
+}
+
+.discount {
+  font-size: 14px;
+  line-height: 1.14;
+
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
+
+.pop-up-close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.pop-up-sub-title {
+  width: 299px;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.subscribe-popup {
+  padding: 0;
+  background: #fafafa;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.subscribe-popup-thumb {
+  padding: 40px;
+}
+
+.subscribe-popup-form {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.subscribe-popup-form input {
+  width: 100%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+
+  border: 1.5px solid rgba(17, 17, 17, 0.15);
+  border-radius: 30px;
+}
+
+.subscribe-popup-form input::placeholder {
+  letter-spacing: -0.02em;
+
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.subscribe-popup-form label {
+  width: 100%;
+}
+
+.subscribe-popup-btn {
+  color: #ffffff;
+
+  transition: 250ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.subscribe-popup-btn:is(:hover, :focus) {
+  color: #fd9222;
 }

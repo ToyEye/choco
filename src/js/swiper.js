@@ -56,3 +56,28 @@ const swiperReview = new Swiper('.swiper-review', {
     },
   },
 });
+
+const topSellers = new Swiper('.buy-slider', {
+  // Optional parameters
+  direction: 'horizontal',
+  speed: 1300,
+
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination-buy',
+    clickable: true,
+  },
+
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+    },
+
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 16,
+    },
+  },
+});

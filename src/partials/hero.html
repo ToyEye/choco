@@ -18,9 +18,9 @@
             </button>
           </li>
           <li>
-            <button type="button" class="primary-btn buy hero-btn">
+            <a type="button" class="primary-btn buy hero-btn" href="#how">
               How it’s made
-            </button>
+            </a>
           </li>
         </ul>
 
@@ -42,6 +42,65 @@
       </button>
 
       <h3 class="primary-title"><span>bUY</span> nOW</h3>
+      <div class="swiper buy-slider">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide buyer-slide">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="/img/transparent-chocolate-bar-dark-chocolat-desk.webp"
+              />
+              <source
+                media="(min-width: 375px)"
+                srcset="/img/transparent-chocolate-bar-dark-chocolat-mob.webp"
+              />
+              <img
+                src="/img/transparent-chocolate-bar-dark-chocolat-mob.webp"
+                alt="choco"
+              />
+            </picture>
+            <p class="weight">100 g</p>
+          </div>
+          <div class="swiper-slide buyer-slide">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="/img/praline-kinder-chocolate-bonbon-milk-desk.webp"
+              />
+              <source
+                media="(min-width: 375px)"
+                srcset="/img/praline-kinder-chocolate-bonbon-milk-mob.webp"
+              />
+              <img
+                src="/img/praline-kinder-chocolate-bonbon-milk-mob.webp"
+                alt="choco"
+              />
+            </picture>
+            <p class="weight">200 g</p>
+          </div>
+          <div class="swiper-slide buyer-slide">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="/img/chocolate-white-chocolate-chocolate-nuts-desk.webp"
+              />
+              <source
+                media="(min-width: 375px)"
+                srcset="/img/chocolate-white-chocolate-chocolate-nuts-mob.webp"
+              />
+              <img
+                src="/img/chocolate-white-chocolate-chocolate-nuts-mob.webp"
+                alt="choco"
+              />
+            </picture>
+            <p class="weight">300 g</p>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination swiper-pagination-buy"></div>
+      </div>
 
       <form class="form-buy">
         <div>
@@ -74,7 +133,11 @@
           </label>
         </div>
 
-        <button type="submit" class="primary-btn js-open-modal" data-modal="2">
+        <button
+          type="submit"
+          class="primary-btn js-open-modal buy-modal-btn"
+          data-modal="2"
+        >
           Submit
         </button>
       </form>

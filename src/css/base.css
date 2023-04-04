@@ -131,3 +131,13 @@ body {
     max-width: 1200px;
   }
 }
+
+input,
+textarea {
+  transition: 250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+label:focus-within > input,
+label:focus-within > textarea {
+  border-color: #fd9222;
+}

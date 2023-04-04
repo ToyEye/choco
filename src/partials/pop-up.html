@@ -1,12 +1,47 @@
 <div class="modal pop-up" data-modal="2">
-  <button type="button" class="close-modal-btn js-modal-close">
+  <button type="button" class="close-modal-btn js-modal-close pop-up-close-btn">
+    <svg width="16" height="16">
+      <use href="/img/icons.svg#icon-x-close"></use>
+    </svg>
+  </button>
+  <p class="gratitude">thank you!</p>
+  <p class="discount">
+    We are glad that you ordered our chocolate and we are giving you a 20%
+    discount on all our products.
+  </p>
+</div>
+
+<div class="modal subscribe-popup" data-modal="3">
+  <button
+    type="button"
+    class="close-modal-btn js-modal-close subscribe-popup-btn"
+  >
     <svg width="28" height="28">
       <use href="/img/icons.svg#icon-x-close"></use>
     </svg>
   </button>
-  <p>thank you!</p>
-  <p>
-    We are glad that you ordered our chocolate and we are giving you a 20%
-    discount on all our products.
-  </p>
+  <img src="/img/subscribe-bg.webp" alt="chocolate" />
+
+  <div class="subscribe-popup-thumb">
+    <h3 class="primary-title pop-up-sub-title">
+      Explore our <br />
+      <span>new chocolate</span> first!
+    </h3>
+    <form class="subscribe-popup-form">
+      <label><input type="text" placeholder="Enter your email" /></label>
+      <button class="primary-btn js-modal-open" type="submit" data-modal="5">
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="modal pop-up" data-modal="5">
+  <button type="button" class="close-modal-btn js-modal-close pop-up-close-btn">
+    <svg width="16" height="16">
+      <use href="/img/icons.svg#icon-x-close"></use>
+    </svg>
+  </button>
+  <p class="gratitude">thank you for your feedback!</p>
+  <p class="discount">We are so happy to hear from you!</p>
 </div>
