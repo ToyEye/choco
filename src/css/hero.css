@@ -23,6 +23,18 @@
   justify-content: flex-end;
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4) 100%
+      ),
+      url('/img/heroMobile2x.jpg');
+  }
+}
+
 .hero-title {
   margin-bottom: 32px;
 
@@ -187,6 +199,18 @@
       url('/img/heroTablet.jpg');
   }
 
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        url('/img/heroTablet2x.jpg');
+    }
+  }
+
   .hero {
     padding-left: 40px;
     padding-right: 40px;
@@ -236,5 +260,17 @@
         rgba(17, 17, 17, 0.4) 100%
       ),
       url('/img/heroDesk.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0) 0%,
+          rgba(17, 17, 17, 0.4) 100%
+        ),
+        url('/img/heroDesk2x.jpg');
+    }
   }
 }
